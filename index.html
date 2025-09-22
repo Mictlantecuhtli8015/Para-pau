@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Para ti chula</title>
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- Fuente manuscrita de Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Encabezado oculto al inicio -->
+  <header class="main-header" id="top-message">
+    Feliz dia chula
+  </header>
+
+  <!-- Video de fondo -->
+  <video autoplay muted playsinline loop id="bg-video">
+    <source src="fondo3.mp4" type="video/mp4">
+    Tu navegador no soporta video en HTML5.
+  </video>
+
+  <!-- Botón corazón -->
+  <button id="heart-btn" class="heart-btn" aria-label="Abrir mensaje">
+    ❤️
+  </button>
+
+  <!-- Nuevo botón 🌸 -->
+  <button id="flower-btn" class="flower-btn" aria-label="Abrir flores">
+    🌸
+  </button>
+
+  <!-- Modal 1 -->
+  <div id="modal" class="modal">
+    <div class="modal-content">
+      <span id="close-btn" class="close">&times;</span>
+      <h2>💌 Eres especial 💌</h2>
+      <p contenteditable="true">Pau, desde que te conocí a primera vista en esa dulcería,
+supe que eras una chica muy bella, gentil y bondadosa.
+Tratabas a todos con una gran sonrisa,
+a quien fuese; eso me enamoró de ti. No importaba el día, la situación o lo que fuese, siempre había una sonrisa dibujada en tu rostro. Cautivabas a las personas a seguir contigo.
+
+Pero eso fue cuando recién te veía; no me atrevía a hablarte aún. Cuando empecé a acercarme más, cuando tomé el valor suficiente y hablé contigo, conforme el tiempo pasaba,
+me di cuenta de que eras aún más increíble: cuidadosa, dedicada, inteligente, valiente, obstinada. Nunca te vi rendirte ante nada. Y aunque es verdad que supe algunas cosas que
+te dejaron herida emocionalmente, tú te recuperaste y seguiste adelante. Eso me llevó a no solo estar enamorado de ti; cuando supe quién eras en tu persona, te ganaste mi absoluto
+respeto y admiración. Inclusive, si se pudiera decir, yo sería tu mayor fan.
+
+Hoy por hoy sigo enamorado de ti, pero no románticamente, no a buscar una pareja, sino que es más estar enamorado
+de quién eres, en quién te has convertido, como una admiración. Me gustaría seguir en tu vida, seguir viéndote crecer y llegar lejos. Sé que quizá no sea tu mejor amigo, al que más confianza le tengas, pero sabes que cuando sea y para lo que sea, estoy para ti
+en todo momento.✨</p>
+        <h3>Yo te quiero mucho Pau, y todos a tu al rededor tambien </h3>
+        <h3>Cuentas con todos nosotros</h3>
+    </div>
+
+    <!-- Flores ligadas al contenedor -->
+    <div class="flores-al-lado" id="flores">
+      <div class="lado left">
+        <img src="flor1.png" alt="Flor 1" class="flor">
+        <img src="flor2.png" alt="Flor 2" class="flor">
+      </div>
+      <div class="lado right">
+        <img src="flor3.png" alt="Flor 3" class="flor">
+        <img src="flor4.png" alt="Flor 4" class="flor">
+      </div>
+    </div>
+  </div>
+
+<!-- Modal 2 -->
+<div id="modal2" class="modal">
+  <div class="modal-content simple">
+    <span id="close-btn2" class="close">&times;</span>
+    <h2>🌺 Mis deseos 🌺</h2>
+    <p contenteditable="true">
+      Yo te tengo mucha fe para todas tus metas, se que podras realizar cualquier cosa que te propongas,
+      y de ser el que dado caso que dudes de ti, que creas que ya no puedes mas, estoy aqui para apoyarte de cualquier forma en la que lo necesites,
+      siempre puedras contar conmigo en cualquier cosa o circunstancia, busca tus sueños y siguelos, se que puedes, se que lo haras y si no es mucho pedirte, por favor, dejame estar a tu lado para poder atestiguarlo por mi mismo, quiero 
+      siempre conservar tu amistad, pues eres un persona por la que vale completamente la pena esforzarse.🌟</p>
+      <h2>
+        Comparto mis sueños contigo
+      </h2>
+    </div>
+
+  <!-- Flores especiales afuera del cuadro -->
+  <div class="flores-extra" id="flores2">
+    <div class="fila-abajo">
+      <img src="flor5.png" alt="Flor A" class="flor2">
+      <img src="flor7.png" alt="Flor B" class="flor2">
+      <img src="flor6.png" alt="Flor C" class="flor2">
+    </div>
+    <div class="lado-izq">
+      <img src="flor9.png" alt="Flor Izquierda" class="flor2">
+    </div>
+    <div class="lado-der">
+      <img src="flor8.png" alt="Flor Derecha" class="flor2">
+    </div>
+  </div>
+</div>
+
+    <!-- Vinculamos el JS externo -->
+  <script src="script.js"></script>
+</body>
+</html>
